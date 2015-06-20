@@ -1,0 +1,9 @@
+<div class="row">
+  <div class="col-xs-2 text-right">
+    <% digest = Digest::MD5.hexdigest(post.user.email) %>
+    <%= image_tag "http://gravatar.com/avatar/#{digest}?s=48", class: 'avatar'  %>
+  </div>
+  <div class="col-xs-10">
+    <%= render post.postable %>
+  </div>
+</div>
