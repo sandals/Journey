@@ -19,3 +19,12 @@
   margin-top: 1em;
   border-radius: 50%;
 }
+
+.post {
+  margin-bottom: 1.414em;
+}
+.post--text {
+}
+.post--image img {
+  max-width: 100%;
+}
