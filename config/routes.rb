@@ -5,4 +5,5 @@ Rails.application.routes.draw do
 
   resources :posts
   resources :text_posts
+  resources :image_posts
 end

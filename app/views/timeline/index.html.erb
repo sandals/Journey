@@ -2,6 +2,7 @@
   <h1>Timeline</h1>
   <div class="timeline__actions">
     <%= link_to 'New Text Post', new_text_post_path, class: 'btn btn-primary' %>
+    <%= link_to 'New Image Post', new_image_post_path, class: 'btn btn-primary' %>
   </div>
 
   <% @posts.each do |post| %>
